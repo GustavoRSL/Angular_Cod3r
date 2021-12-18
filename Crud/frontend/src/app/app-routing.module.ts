@@ -7,8 +7,12 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 const routes: Routes = [
   {
     path: "",
-    component
-  }
+    component: HomeComponent
+  },
+  {
+    path: "products",
+    component: ProductCrudComponent
+  },
 ];
 
 @NgModule({
