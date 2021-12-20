@@ -1,11 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta BIC",
-      "price": 5
-    },
-    {
       "id": 2,
       "name": "Celular",
       "price": 500
@@ -21,9 +16,9 @@
       "price": "50000"
     },
     {
-      "name": "Sara",
-      "price": "1.99",
-      "id": 5
+      "name": "Caneta",
+      "price": "2",
+      "id": 7
     }
   ]
 }
