@@ -28,6 +28,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProductReadComponent } from './components/product/product-read/product-read.component'
 import localePt from '@angular/common/locales/pt'
 import { registerLocaleData} from '@angular/common';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 
 registerLocaleData(localePt)
 
@@ -42,7 +43,8 @@ registerLocaleData(localePt)
     RedDirective,
     ForDirective,
     ProductCreateComponent,
-    ProductReadComponent
+    ProductReadComponent,
+    ProductUpdateComponent
   ],
   imports: [
     BrowserModule,
